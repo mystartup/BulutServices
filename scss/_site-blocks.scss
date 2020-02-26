@@ -89,10 +89,10 @@
 		z-index: 3;
 		position: relative;
 		.heading {
-			
 			margin-left: -150px;
 			@include media-breakpoint-down(md) {
 				margin-left: 0;
+				font-size: 36px;
 			}
 		}
 		.text {
