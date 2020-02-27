@@ -147,7 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-top {
   border-top: 1px solid #ced4da !important; }
-
+.footer-logo{
+  height: 53px;
+  position: relative;
+  margin-bottom: 20px;
+}
 .site-footer {
   padding-top: 17rem;
   padding-bottom: 4rem;
@@ -220,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   padding: 15px 0; }
   .site-navbar .site-logo {
-    height: 55px;
+    height: 53px;
     font-weight: 200;
     line-height: 0;
     position: relative; }
