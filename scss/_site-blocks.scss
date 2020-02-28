@@ -89,6 +89,7 @@
 		z-index: 3;
 		position: relative;
 		.heading {
+			color: $primary;
 			margin-left: -150px;
 			@include media-breakpoint-down(md) {
 				margin-left: 0;
