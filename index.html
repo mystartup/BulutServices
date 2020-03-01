@@ -16,34 +16,12 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-<!--
-  <body id="preloader">
-  <section id="preload">
-    <div class="loader"></div>
-    <div class="count"></div>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        var count = 0;
-        var counter = setInterval(function () {
-          if (count < 101){
-            $('.count').text(count+'%');
-            $('.loader').css('width', count + '%');
-            count++
-          }
-          else{
-            clearInterval(counter)
-          }
-        }, 50)
-      });
-    </script>
-  </section>
-  </body>
--->
+  </head>
+
+
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <div class="site-wrap">
-
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -131,22 +109,35 @@
               <div data-aos="zoom-in-down" data-aos-delay="300" class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <h3>Web Development</h3>
-                  <p>We create websites of va</p>
+                  <p>
+                    Starting a web development project feels daunting, so businesses often feel stuck with the
+                    status quo, risking missed opportunities and competitive disadvantage.
+                    With over 10 projects of experience developing upon the top CMS platforms and a well-honed project
+                    management process, "Bulut" builds high-performing sites across a wide range of industries.
+                    We’ve overcome all kinds of challenges for our clients, helping achieve some exceptional results in the process.</p>
                   <!--<p><a href="#" class="readmore">Learn more</a></p>-->
                 </div>
               </div>
               <div data-aos="zoom-in-down" data-aos-delay="600" class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
-                  <h3>Development</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
+                  <h3>UI/UX</h3>
+                  <p>User Experience considers the entire user journey from the first interaction. We work iteratively,
+                    starting with rough sketches and ending in final, buildable design prototypes that let you explore and
+                    understand the entire user journey. Whether building
+                    a website or mobile product, the challenge is always the same: To create an experience that is instantly
+                    accessible to new users—and that empowers them, too.</p>
+                  <!--<p><a href="#" class="readmore">Learn more</a></p>-->
+
                 </div>
               </div>
               <div data-aos="zoom-in-down" data-aos-delay="900" class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
-                  <h3>eCommerce</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
+                  <h3>SMM</h3>
+                  <p>With our comprehensive marketing solutions, our clients consistently experience the dedication and
+                    professionalism needed. We inject passion, clear communication, and innovation in all of our marketing
+                    solutions. We take pride when our clients succeed. With this vision in mind, we continuously improve
+                    our social media management packages to include the latest applications such as Facebook, YouTube,
+                    Instagram and more to serve our clients.</p>
                 </div>
               </div>
             </div>
@@ -158,23 +149,25 @@
     <div class="site-section" id="about-section">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 mb-5">
+          <div class="col-lg-6 mb-5" data-aos="fade-right">
             <img src="images/about-us-min.png" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto section-title">
+            <div data-aos="fade-left">
             <span class="sub-title mb-2 d-block">Acquaint Us</span>
             <h2 class="title text-primary mb-3">About us</h2>
-            <p class="mb-4">We are a team of dreamers and doers united by a simple idea: If we make a quality products for your customers we will make a quality products and for your business.</p>
+            </div>
+            <p data-aos="fade-left" data-aos-delay="300" class="mb-4">We are a team of dreamers and doers united by a simple idea: If we make a quality products for your customers we will make a quality products and for your business.</p>
 
 
             <div class="d-flex">
-              <ul class="list-unstyled ul-check success mr-5">
+              <ul data-aos="zoom-in-down" data-aos-delay="600" class="list-unstyled ul-check success mr-5">
                 <li>Design</li>
                 <li>Development</li>
                 <li>eCommerce</li>
 
               </ul>
-              <ul class="list-unstyled ul-check success">
+              <ul data-aos="zoom-in-down" data-aos-delay="900" class="list-unstyled ul-check success">
 
                 <li>SEO</li>
                 <li>UX/UI</li>
@@ -189,18 +182,16 @@
 
 
     <div class="site-section" id="what-we-do-section">
-      <div class="container">
+      <div class="container flex-wrap">
         <div class="row mb-5">
-          <div class="col section-title">
+          <div data-aos="fade-right" class="col section-title">
             <span class="sub-title mb-2 d-block">OUR LEADERSHIP</span>
             <h2 class="title text-primary">Meet our team</h2>
           </div>
-
         </div>
         <div class="row no-gutters">
-
           <div class="col mb-5 person">
-            <img src="images/ispo.jpg" alt="Image" class="img-fluid mb-5">
+            <img src="images/ispo.jpg" alt="Iskhak Asanov" class="img-wrap img-fluid mb-5">
             <div class="row">
               <div class="col-lg-10 ml-auto">
                 <div class="pr-lg-5">
@@ -211,16 +202,15 @@
                   <a href="https://www.facebook.com/asanovpersonal" class="facebook p-2"><span class="icon-facebook"></span></a>
                   <a href="https://www.instagram.com/iskhak_asanov" class="instagram p-2"><span class="icon-instagram"></span></a>
                   <a href="https://www.linkedin.com/in/iskhak-a-080466136/" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col mb-5 person">
-            <img src="images/azpo-min.jpg" alt="Image" class="img-fluid mb-5">
+            <img src="images/azpo-min.jpg" alt="Aziyat Murzamidinov" class="img-wrap img-fluid mb-5">
             <div class="row">
-              <div class="col-lg-10 ml-auto">
+              <div class="col-lg-10 ml-auto ">
                 <div class="pr-lg-5">
                   <h3>Aziyat Murzamidinov</h3>
                   <span class="mb-4 d-block">CEO, Co-Founder</span>
@@ -229,16 +219,16 @@
                   <a href="https://www.facebook.com/aziyatali" class="facebook p-2"><span class="icon-facebook"></span></a>
                   <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
                   <a href="https://www.linkedin.com/in/aziyatali/" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
+
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col mb-5 person">
-            <img src="images/urpo-min.jpg" alt="Image" class="img-fluid mb-5">
+            <img src="images/urpo-min.jpg" alt="Uran Sabyr" class="img-wrap img-fluid mb-5">
             <div class="row">
-              <div class="col-lg-10 ml-auto">
+              <div class="col-lg-10 ml-auto ">
                 <div class="pr-lg-5">
                   <h3>Uran Sabyr</h3>
                   <span class="mb-4 d-block">CEO, Co-Founder</span>
@@ -247,7 +237,7 @@
                   <a href="https://www.facebook.com/uran.sabyr" class="facebook p-2"><span class="icon-facebook"></span></a>
                   <a href="https://www.instagram.com/uran_sabyr" class="instagram p-2"><span class="icon-instagram"></span></a>
                   <a href="https://www.linkedin.com/in/uran-s-72a306139/" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
+
                 </div>
               </div>
             </div>
@@ -274,7 +264,7 @@
             <h3>Web Development for Ask Consulting</h3>
             <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <p class="mb-4"><a href="http://ask.kg" class="readmore">See website</a></p>
-            <!--<div class="testimonial bg-white h-100">
+            <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
                 <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
               </blockquote>
@@ -288,7 +278,6 @@
                 </div>
               </div>
             </div>
--->
           </div>
         </div>
 
@@ -301,7 +290,7 @@
             <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <p class="mb-4"><a href="http://nag-group.kr" class="readmore">See website</a></p>
 
-            <!--<div class="testimonial bg-white h-100">
+            <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
                 <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
               </blockquote>
@@ -314,7 +303,7 @@
                   <span class="position">Web Designer</span>
                 </div>
               </div>
-            </div>-->
+            </div>
           </div>
         </div>
         <div class="row mb-5">
@@ -325,7 +314,7 @@
             <h3>Web Development for Dinopark</h3>
             <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <p class="mb-4"><a href="http://dinopark.kg" class="readmore">See website</a></p>
-            <!--<div class="testimonial bg-white h-100">
+            <div class="testimonial bg-white h-100">
               <blockquote class="mb-3">
                 <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
               </blockquote>
@@ -339,7 +328,7 @@
                 </div>
               </div>
             </div>
--->          </div>
+          </div>
         <!--</div>
         <div class="row mb-5">
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
@@ -537,7 +526,7 @@
                   <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                 </div>
             <p>
-              &copy;<script>document.write(new Date().getFullYear());</script> <a href="#home-section" class="smoothscroll">Bulut Development</a>
+              &copy;COPYRIGHT <script>document.write(new Date().getFullYear());</script> <a href="#home-section" class="smoothscroll">Bulut Development</a>
               <a class="nav-link smoothscroll" href="#contact-section">Contact Us</a> <a href="mailto:bulutdevelop@gmail.com">bulutdevelop@gmail.com</a>
             </p>
           </div>
@@ -547,7 +536,7 @@
     </footer>
   </div>
 
-
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
